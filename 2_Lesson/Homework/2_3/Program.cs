@@ -3,10 +3,10 @@
 Console.WriteLine("Write number a: ");
 int a = int.Parse(Console.ReadLine());
 if (a / 100 == 0)
-Console.WriteLine("Третьей цифры нет");
+    Console.WriteLine("Третьей цифры нет");
 else
 {
-while (a / 1000 > 0)
-a = a / 10;
-Console.WriteLine(a % 10);
+    while (a / 1000 > 0)
+        a = a / 10;
+    Console.WriteLine(a % 10);
 }

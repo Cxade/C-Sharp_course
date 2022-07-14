@@ -5,8 +5,8 @@
 Console.WriteLine("Write number a: ");
 int a = int.Parse(Console.ReadLine());
 if (a == 6 || a == 7)
-Console.WriteLine("Выходной");
+    Console.WriteLine("Выходной");
 else if (0 < a && a < 6)
-Console.WriteLine("Будний");
+    Console.WriteLine("Будний");
 else
-Console.WriteLine("Введите число от 1 до 7");
+    Console.WriteLine("Введите число от 1 до 7");
